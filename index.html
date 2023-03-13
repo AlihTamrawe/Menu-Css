@@ -19,18 +19,25 @@
         <nav>
             <a
             href="#"
+            onclick="changeit('About')"
+
             style="animation-delay: 0.1s">
             About</a>
             <a
             href="#"
+            onclick="changeit('Home')"
             style="animation-delay: 0.1s">
             Home</a>
             <a
             href="#"
+            onclick="changeit('Portfollio')"
+
             style="animation-delay: 0.2s">
             Portfollio</a>
             <a
             href="#"
+            onclick="changeit('Contact')"
+
             style="animation-delay: 0.2s">
             Contact</a>
         </nav>
@@ -54,8 +61,11 @@
     type="text/javascript">
     const toggleMenu = () => {
         document.body.classList.toggle("open");
-        document.alert("hi");
     };
+    const changeit = (x) =>{
+        alert(x);
+
+    }
 
 </script>
 </html>
