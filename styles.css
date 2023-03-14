@@ -130,8 +130,8 @@ body {
     width: auto;
     height: auto;
     background: fixed;
-    background-image: rgb(208, 99, 99);
-    opacity: 1;
+    background-image: rgb(99, 208, 103);
+    opacity: 0;
 
 }
 .full h1{
