@@ -182,8 +182,18 @@ body {
     transform: rotate(135deg);
 }
 .index-7{
-    transform: rotate(180deg);
+    transform: rotate(160deg);
 }
 .index-8{
     transform: rotate(22.5deg);
+}
+.ball{
+    width: 8px;
+    height: 8px;
+    background-color: rgb(148, 60, 60);
+    border-radius: 50%;
+    position: relative;
+    border: 1px solid solid;
+
+
 }
